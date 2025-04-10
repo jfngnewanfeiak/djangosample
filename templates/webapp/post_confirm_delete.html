@@ -1,0 +1,22 @@
+{% extends 'base.html' %} # 親 template の指定
+{% block content %} # 中身の記述開始
+<form action="" method="POST">
+    <table>
+        <tr>
+            <th>title</th>
+            <td>{{post.title}}</td>
+        </tr>
+        <tr>
+            <th>main sentence...</th>
+            <td>{{post.text}}</td>
+        </tr>
+        <tr>
+            <th>date</th>
+            <td>{{post.date}}</td>
+        </tr>
+    </table>
+    <p>Do you want to delete this data???</p>
+    <button type="submit">delete send</button>
+    {% csrf_token %}
+</form>
+{% endblock %} # 中身の記述終了

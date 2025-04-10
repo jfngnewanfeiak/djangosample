@@ -1,0 +1,18 @@
+{% extends 'base.html' %} # 親 template の指定
+
+{% block content %} # 中身の記述開始
+<table>
+    <tr>
+        <th>title</th>
+        <td>{{post.title}}</td>
+    </tr>
+    <tr>
+        <th>main sentence...</th>
+        <td>{{post.text | linebreaksbr}}</td>
+    </tr>
+    <tr>
+        <th>date</th>
+        <td>{{post.date}}</td>
+    </tr>
+</table>
+{% endblock %} # 中身の記述終了
