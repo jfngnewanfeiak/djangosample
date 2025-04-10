@@ -25,5 +25,5 @@ code .
 ## 参考サイト
 ```code
 これの1~6(イベント投稿機能)
-https://zenn.dev/tmasuyama1114/articles/django-tutorial-blogapp-6
+<https://zenn.dev/tmasuyama1114/articles/django-tutorial-blogapp-6>
 ```
