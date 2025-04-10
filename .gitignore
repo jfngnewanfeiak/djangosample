@@ -1,0 +1,4 @@
+mysite/__pycache__/
+webapp/__pycache__/
+webapp/migrations/__pycache__/
+webapp/tests/__pycache__/
