@@ -1,9 +1,9 @@
 # djangosample
 
 # git clone後にやること
-'''bash
+```bash
 cd djangosample
-'''
+```
 
 # 仮想環境の構築
 python3 -m venv webapp_venv
