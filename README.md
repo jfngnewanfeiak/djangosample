@@ -1,7 +1,7 @@
 # djangosample
 
 # git clone後にやること
-```bash
+```
 cd djangosample
 ```
 
