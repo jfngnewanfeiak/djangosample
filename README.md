@@ -1,6 +1,6 @@
 # djangosample
 
-git clone後にやること
+# git clone後にやること
 cd djangosample
 
 # 仮想環境の構築
